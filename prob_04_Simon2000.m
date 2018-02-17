@@ -78,27 +78,5 @@ xlabel('time (s)');
 ylabel('state');
 legend('x', 'y', 'z');
 title('Derivative of State vs Time');
-%% FOR DEBUG: ode45 plot 
-%{
-% Plot the state as a function of time:
-h1 = subplot(2, 3, [1, 2]); hold on;
 
-%%%% TODO: plot the state vs time
-plot(tOde45,zOde45(1,:),'-r');
-plot(tOde45,zOde45(2,:),'-g');
-plot(tOde45,zOde45(3,:),'-h');
-xlabel('time (s)');
-ylabel('state');
-legend('x', 'y', 'z');
-% Plot the derivative of each state as a function of time:
-
-h2 = subplot(2, 3, [4, 5]); hold on;
-%%%% TODO: plot the derivative of each state vs time
-plot(tOde45(2:end),diff(zOde45(1,:)),'-r');
-plot(tOde45(2:end),diff(zOde45(2,:)),'-g');
-plot(tOde45(2:end),diff(zOde45(3,:)),'-h');
-xlabel('time (s)');
-ylabel('state');
-legend('x', 'y', 'z');
-%}
 end

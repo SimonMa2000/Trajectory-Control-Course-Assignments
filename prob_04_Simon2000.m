@@ -1,4 +1,4 @@
-function prob_04_studentName()
+function prob_04_Simon2000()
 %
 % This function computes a simulation of a the Lorenz system, creating
 % a visualization of the Lorenz attractor fractal.

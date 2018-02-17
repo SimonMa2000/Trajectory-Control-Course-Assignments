@@ -1,4 +1,4 @@
-function prob_03_SaiMa()
+function prob_03_Simon2000()
 %
 % This function computes a simulation of a simple pendulum.
 %

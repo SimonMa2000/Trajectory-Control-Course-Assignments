@@ -1,1 +1,2 @@
-# Trajetory-Control-Homework
+# Trajetory-Control
+## Assignment 2

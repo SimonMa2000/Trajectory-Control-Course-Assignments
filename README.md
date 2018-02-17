@@ -1,1 +1,1 @@
-# Trajetory-Controll-HW
+# Trajetory-Control-Homework

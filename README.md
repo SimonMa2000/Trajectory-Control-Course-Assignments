@@ -1,2 +1,2 @@
-# Trajetory-Control
+# Trajectory-Control
 ## Assignment 2
